@@ -6,5 +6,10 @@ namespace Template
     {
         public Vector3 SourcePosition { get; set; }
         public Color SourceIntensity { get; set; }
+        public Light(Vector3 sourcePosition, Color sourceIntensity)
+        {
+            SourcePosition = sourcePosition;
+            SourceIntensity = sourceIntensity;
+        }
     }
 }
