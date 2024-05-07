@@ -30,3 +30,12 @@
 /Users/nauris/Google Drive/Uni/INFOGR Graphics/INFOGR2024Template/obj/Debug/net6.0/INFOGR2024Template.pdb
 /Users/nauris/Google Drive/Uni/INFOGR Graphics/INFOGR2024Template/obj/Debug/net6.0/INFOGR2024Template.genruntimeconfig.cache
 /Users/nauris/Google Drive/Uni/INFOGR Graphics/INFOGR2024Template/obj/Debug/net6.0/ref/INFOGR2024Template.dll
+C:\Users\berku\OneDrive\Dators\Graphics 1\INFOGR-Raytracer\obj\Debug\net6.0\INFOGR2024Template.csproj.AssemblyReference.cache
+C:\Users\berku\OneDrive\Dators\Graphics 1\INFOGR-Raytracer\obj\Debug\net6.0\INFOGR2024Template.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\berku\OneDrive\Dators\Graphics 1\INFOGR-Raytracer\obj\Debug\net6.0\INFOGR2024Template.AssemblyInfoInputs.cache
+C:\Users\berku\OneDrive\Dators\Graphics 1\INFOGR-Raytracer\obj\Debug\net6.0\INFOGR2024Template.AssemblyInfo.cs
+C:\Users\berku\OneDrive\Dators\Graphics 1\INFOGR-Raytracer\obj\Debug\net6.0\INFOGR2024Template.csproj.CoreCompileInputs.cache
+C:\Users\berku\OneDrive\Dators\Graphics 1\INFOGR-Raytracer\obj\Debug\net6.0\INFOGR2024Template.sourcelink.json
+C:\Users\berku\OneDrive\Dators\Graphics 1\INFOGR-Raytracer\obj\Debug\net6.0\INFOGR2024Template.dll
+C:\Users\berku\OneDrive\Dators\Graphics 1\INFOGR-Raytracer\obj\Debug\net6.0\refint\INFOGR2024Template.dll
+C:\Users\berku\OneDrive\Dators\Graphics 1\INFOGR-Raytracer\obj\Debug\net6.0\INFOGR2024Template.pdb
