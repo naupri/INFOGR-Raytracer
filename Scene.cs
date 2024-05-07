@@ -18,6 +18,7 @@ namespace Template
                     //scenePrimitive.
                     //find the intersection of input vector 'direction' and the sphere
                     //comment
+                    //another comment
                 }
 
                 if (scenePrimitive is Plane)
