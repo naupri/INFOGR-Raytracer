@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = INFOGR2024Template
-build_property.ProjectDir = C:\Users\berku\OneDrive\Dators\Graphics 1\INFOGR-Raytracer\
+build_property.ProjectDir = /Users/nauris/Google Drive/Uni/INFOGR Graphics/INFOGR2024Template/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

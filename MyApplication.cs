@@ -18,15 +18,29 @@ namespace Template
         public void Tick()
         {
             screen.Clear(0);
-            screen.Print("hello world", 2, 2, 0xffffff);
+            //screen.Print("hello world", 2, 2, 0xffffff);
             //screen.Box(x1:0, y1:200, x2:700, y2:280, c:0x0000ff);
             //Box(int x1, int y1, int x2, int y2, int c)
             //screen.Line(x1:500, y1:0, x2:580, y2:700, c:0x0000ff);
+            
+            for (int xval=0; xval < screen.width; xval++)
+            {
+                for (int yval=0; yval < screen.height; yval++)
+                {
+                    //make new ray and determine ray.Direction based on xval and yval
+                    // Ray ray = new Ray(xval, yval);
+                    // Intersection rayIntersect = Scene.Intersect(ray);
+                    
+                    screen.Plot(xval,yval, 0xffffff);
+                }
+            }
            
+            
             for (int ypix = 100; ypix < 180; ypix++)
             {
                 int color = (255 / 40) * (ypix - 100);
                 screen.Line(0,ypix,screen.width, ypix, color*256*257);
+                
             }
             
             screen.Line( 220, 150, 420, 150, 0xffffff );
