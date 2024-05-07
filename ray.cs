@@ -6,7 +6,7 @@ namespace Template
     {
         public Vector3 Origin { get; private set; }
         public Vector3 Direction { get; private set; }
-        public float TestValue { get; set; }
+        public float Parameter { get; set; }
 
         public Ray(Vector3 origin, Vector3 direction)
         {
