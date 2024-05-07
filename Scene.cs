@@ -17,6 +17,7 @@ namespace Template
                     //Sphere sceneSphere = (Sphere)scenePrimitive;
                     //scenePrimitive.
                     //find the intersection of input vector 'direction' and the sphere
+                    //comment
                 }
 
                 if (scenePrimitive is Plane)
