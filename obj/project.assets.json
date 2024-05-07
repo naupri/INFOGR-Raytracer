@@ -447,24 +447,26 @@
     ]
   },
   "packageFolders": {
-    "/Users/nauris/.nuget/packages/": {}
+    "C:\\Users\\berku\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/nauris/Google Drive/Uni/INFOGR Graphics/INFOGR2024Template/INFOGR2024Template.csproj",
+      "projectUniqueName": "C:\\Users\\berku\\OneDrive\\Dators\\Graphics 1\\INFOGR-Raytracer\\INFOGR2024Template.csproj",
       "projectName": "INFOGR2024Template",
-      "projectPath": "/Users/nauris/Google Drive/Uni/INFOGR Graphics/INFOGR2024Template/INFOGR2024Template.csproj",
-      "packagesPath": "/Users/nauris/.nuget/packages/",
-      "outputPath": "/Users/nauris/Google Drive/Uni/INFOGR Graphics/INFOGR2024Template/obj/",
+      "projectPath": "C:\\Users\\berku\\OneDrive\\Dators\\Graphics 1\\INFOGR-Raytracer\\INFOGR2024Template.csproj",
+      "packagesPath": "C:\\Users\\berku\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\berku\\OneDrive\\Dators\\Graphics 1\\INFOGR-Raytracer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/nauris/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\berku\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -477,6 +479,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -503,26 +510,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.29, 6.0.29]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.osx-arm64",
-            "version": "[6.0.29, 6.0.29]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.29, 6.0.29]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   },

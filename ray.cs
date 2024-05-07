@@ -7,8 +7,8 @@ namespace Template
     {
         public Vector3 point;
         public Vector3 origin;
-        public Vector3 Point
-        {
+        public Vector3 Point;
+        /*{
             get {return point;}
             set {point = Vector3.Add(Camera.TopLeft, Vector3.Multiply()}
         }
@@ -23,6 +23,6 @@ namespace Template
         public Ray(Vector3 direction)
         {
             Direction = direction;
-        }
+        }*/
     }
 }
