@@ -1,4 +1,5 @@
 using System.Reflection.Metadata.Ecma335;
+using System.Collections.Generic;
 using OpenTK.Mathematics;
 
 namespace Template
@@ -14,7 +15,7 @@ namespace Template
             {
                 if (scenePrimitive is Sphere)
                 {
-                    //Sphere sceneSphere = (Sphere)scenePrimitive;
+                    Sphere sceneSphere = (Sphere)scenePrimitive;
                     //scenePrimitive.
                     //find the intersection of input vector 'direction' and the sphere
                     //comment
