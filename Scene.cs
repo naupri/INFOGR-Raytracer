@@ -1,7 +1,7 @@
 using System.Reflection.Metadata.Ecma335;
 using System.Collections.Generic;
 using OpenTK.Mathematics;
-
+/*
 namespace Template
 {
     public class Scene
@@ -9,7 +9,7 @@ namespace Template
         public List<Primitive> Primitives { get; set; }
         public List<Light> LightSources { get; set; }
 
-        /* public Intersection Intersect(Ray ray) //either make a return statement or void the function;
+        public Intersection Intersect(Ray ray) //either make a return statement or void the function;
         {
             foreach (Primitive scenePrimitive in this.Primitives)
             {
@@ -45,6 +45,6 @@ namespace Template
             }
             
             //at the end Intersect() needs to return the closest object to the starting point
-        } */
+        }
     }
-}
+}*/

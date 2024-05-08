@@ -5,24 +5,27 @@ namespace Template
 {
     public class Ray
     {
-        public Vector3 point;
-        public Vector3 origin;
-        public Vector3 Point;
-        /*{
-            get {return point;}
-            set {point = Vector3.Add(Camera.TopLeft, Vector3.Multiply()}
-        }
-        public Vector3 Origin
-        {
-            get {return origin;}
-            private set {origin = Camera.Position;}
-        }
-        public Vector3 Direction { get; private set; }
-        public float Parameter { get; set; }
+        Camera one = new Camera();
+        public float Avalue { get; set; }
+        public float Bvalue { get; set; }           
+        public Vector3 Origin { get; set; }
+        public Vector3 Point { get; set; }
+        public Vector3 Direction { get; set; }
+        public float Distance { get; set; }
 
-        public Ray(Vector3 direction)
+        public Ray()
         {
-            Direction = direction;
-        }*/
+            Avalue = 1f;
+            Bvalue = 1f;            
+            Origin = one.Position;
+            RaySetup();
+        }
+
+        private void RaySetup()
+        {
+            Point = Vector3.Add(Vector3.Add(one.TopLeft, Vector3.Multiply(one.BasisU,Avalue)), Vector3.Multiply(one.BasisV,Bvalue));
+            Direction = Vector3.Normalize(Vector3.Add(Point, Vector3.Multiply(Origin,-1)));
+
+        }
     }
 }

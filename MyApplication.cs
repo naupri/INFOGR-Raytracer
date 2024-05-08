@@ -49,6 +49,13 @@ namespace Template
             screen.Line( 220, 250, 420, 250, 0xffffff );
 
             screen.Line(2, 20, 160, 20, 0xff0000);
+
+            Camera one = new Camera();
+            Console.WriteLine(one.TopLeft);
+            Ray two = new Ray();
+            Console.WriteLine(two.Direction);
+
+
             
         }
     }

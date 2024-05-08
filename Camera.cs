@@ -10,6 +10,8 @@ public class Camera
     public Vector3 TopLeft { get; set; }
     public Vector3 TopRight { get; set; }
     public Vector3 BottomLeft { get; set; }
+    public Vector3 BasisU { get; set; }
+    public Vector3 BasisV { get; set; }
 
     public Camera()
     {
@@ -18,6 +20,7 @@ public class Camera
         ViewDirection = new Vector3(0,0,1);
         UpDirection = new Vector3(0,1,0);
         RightDirection = new Vector3(1,0,0);
+        ImagePlane();
     }
     private void ImagePlane()
     {
@@ -25,6 +28,8 @@ public class Camera
         TopLeft = PlaneCenter + UpDirection - RightDirection;
         TopRight = PlaneCenter + UpDirection + RightDirection;
         BottomLeft = PlaneCenter - UpDirection - RightDirection;
+        BasisU = TopRight - TopLeft;
+        BasisV = BottomLeft - TopLeft;
 
     }
 }
