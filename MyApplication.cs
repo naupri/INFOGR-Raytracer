@@ -53,7 +53,7 @@ namespace Template
             Camera one = new Camera();
             Console.WriteLine(one.TopLeft);
             Ray two = new Ray();
-            Console.WriteLine(two.Direction);
+            Console.WriteLine(two.RayEquation);
 
 
             
